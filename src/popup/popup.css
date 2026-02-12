@@ -234,24 +234,34 @@ kbd {
   text-align: center;
 }
 
-.btn-reset {
-  padding: 8px 16px;
+.btn-coffee {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 20px;
   font-size: 13px;
-  color: #666;
-  background: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 6px;
+  font-weight: 500;
+  background: #FFDD00;
+  color: #000;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
+  text-decoration: none;
   transition: all 0.2s;
 }
 
-.btn-reset:hover {
-  background: #eee;
-  border-color: #ccc;
+.btn-coffee img {
+  flex-shrink: 0;
 }
 
-.btn-reset:active {
-  background: #e5e5e5;
+.btn-coffee:hover {
+  background: #FFCA00;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-coffee:active {
+  transform: translateY(0);
 }
 
 /* 消息提示 */

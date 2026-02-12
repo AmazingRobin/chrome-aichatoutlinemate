@@ -114,11 +114,15 @@
     /* 列表容器 */
     .om-list {
       flex: 1;
-      overflow-y: auto;
+      overflow-y: hidden;
       overflow-x: hidden;
       padding: 8px 0;
       scrollbar-width: thin;
       scrollbar-color: var(--om-scrollbar-color) transparent;
+    }
+
+    .om-sidebar:hover .om-list {
+      overflow-y: auto;
     }
 
     .om-list::-webkit-scrollbar {

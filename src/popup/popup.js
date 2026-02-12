@@ -21,7 +21,7 @@
     showPreview: document.getElementById('showPreview'),
     sidebarPosition: document.getElementById('sidebarPosition'),
     language: document.getElementById('language'),
-    resetBtn: document.getElementById('resetBtn'),
+    coffeeBtn: document.getElementById('coffeeBtn'),
   };
 
   // 翻译数据缓存
@@ -233,8 +233,7 @@
       elements.language.addEventListener('change', saveLanguage);
     }
 
-    // 重置按钮
-    elements.resetBtn.addEventListener('click', resetSettings);
+    // 重置按钮已移除，改为 Buy Me a Coffee 链接
   }
 
   // 初始化
