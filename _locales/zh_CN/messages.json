@@ -1,0 +1,96 @@
+{
+  "extName": {
+    "message": "AI Chat OutlineMate - 为ChatGPT、Gemini、豆包、Kimi、通义千问生成对话大纲导航，快速回溯，精准定位",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "为ChatGPT、Gemini、豆包、Kimi、通义千问生成对话大纲导航，快速回溯，精准定位",
+    "description": "Extension description"
+  },
+  "enablePlugin": {
+    "message": "启用插件",
+    "description": "Enable plugin toggle label"
+  },
+  "enablePluginDesc": {
+    "message": "在支持的AI平台上显示对话大纲",
+    "description": "Enable plugin description"
+  },
+  "showPreview": {
+    "message": "显示AI回复预览",
+    "description": "Show AI reply preview toggle label"
+  },
+  "showPreviewDesc": {
+    "message": "在目录项下方显示AI回复摘要",
+    "description": "Show preview description"
+  },
+  "sidebarPosition": {
+    "message": "侧边栏位置",
+    "description": "Sidebar position label"
+  },
+  "sidebarPositionDesc": {
+    "message": "选择侧边栏显示在页面的哪一侧",
+    "description": "Sidebar position description"
+  },
+  "positionRight": {
+    "message": "右侧",
+    "description": "Right side option"
+  },
+  "positionLeft": {
+    "message": "左侧",
+    "description": "Left side option"
+  },
+  "language": {
+    "message": "语言",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "选择显示语言",
+    "description": "Language setting description"
+  },
+  "languageAuto": {
+    "message": "自动（跟随浏览器）",
+    "description": "Auto language option"
+  },
+  "supportedPlatforms": {
+    "message": "支持的平台",
+    "description": "Supported platforms section title"
+  },
+  "resetSettings": {
+    "message": "重置设置",
+    "description": "Reset settings button"
+  },
+  "settingsReset": {
+    "message": "设置已重置",
+    "description": "Settings reset toast message"
+  },
+  "noConversation": {
+    "message": "暂无对话",
+    "description": "Empty state message"
+  },
+  "outlineNavigation": {
+    "message": "对话大纲导航",
+    "description": "Sidebar aria label"
+  },
+  "messageAriaLabel": {
+    "message": "第$INDEX$条: $TITLE$",
+    "description": "Message item aria label",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      },
+      "title": {
+        "content": "$2",
+        "example": "你好"
+      }
+    }
+  },
+  "platformDoubao": {
+    "message": "豆包",
+    "description": "Doubao platform name"
+  },
+  "platformQwen": {
+    "message": "千问",
+    "description": "Qwen platform name"
+  }
+}

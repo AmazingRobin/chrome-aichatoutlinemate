@@ -1,0 +1,96 @@
+{
+  "extName": {
+    "message": "AI Chat OutlineMate - 为ChatGPT、Gemini、豆包、Kimi、通义千问生成对话大纲导航，快速回溯，精准定位",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Generate conversation outline navigation for ChatGPT, Gemini, Doubao, Kimi, Qwen - quick backtracking, precise positioning",
+    "description": "Extension description"
+  },
+  "enablePlugin": {
+    "message": "Enable Plugin",
+    "description": "Enable plugin toggle label"
+  },
+  "enablePluginDesc": {
+    "message": "Show conversation outline on supported AI platforms",
+    "description": "Enable plugin description"
+  },
+  "showPreview": {
+    "message": "Show AI Reply Preview",
+    "description": "Show AI reply preview toggle label"
+  },
+  "showPreviewDesc": {
+    "message": "Display AI reply summary below each item",
+    "description": "Show preview description"
+  },
+  "sidebarPosition": {
+    "message": "Sidebar Position",
+    "description": "Sidebar position label"
+  },
+  "sidebarPositionDesc": {
+    "message": "Choose which side of the page to display the sidebar",
+    "description": "Sidebar position description"
+  },
+  "positionRight": {
+    "message": "Right",
+    "description": "Right side option"
+  },
+  "positionLeft": {
+    "message": "Left",
+    "description": "Left side option"
+  },
+  "language": {
+    "message": "Language",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Choose display language",
+    "description": "Language setting description"
+  },
+  "languageAuto": {
+    "message": "Auto (Browser)",
+    "description": "Auto language option"
+  },
+  "supportedPlatforms": {
+    "message": "Supported Platforms",
+    "description": "Supported platforms section title"
+  },
+  "resetSettings": {
+    "message": "Reset Settings",
+    "description": "Reset settings button"
+  },
+  "settingsReset": {
+    "message": "Settings have been reset",
+    "description": "Settings reset toast message"
+  },
+  "noConversation": {
+    "message": "No conversations",
+    "description": "Empty state message"
+  },
+  "outlineNavigation": {
+    "message": "Conversation Outline Navigation",
+    "description": "Sidebar aria label"
+  },
+  "messageAriaLabel": {
+    "message": "Message $INDEX$: $TITLE$",
+    "description": "Message item aria label",
+    "placeholders": {
+      "index": {
+        "content": "$1",
+        "example": "1"
+      },
+      "title": {
+        "content": "$2",
+        "example": "Hello"
+      }
+    }
+  },
+  "platformDoubao": {
+    "message": "Doubao",
+    "description": "Doubao platform name"
+  },
+  "platformQwen": {
+    "message": "Qwen",
+    "description": "Qwen platform name"
+  }
+}

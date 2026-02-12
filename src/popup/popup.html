@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chat OutlineMate</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- 头部 -->
+    <header class="header">
+      <div class="logo">
+        <img src="../../icons/icon48.png" alt="Logo" width="32" height="32">
+        <div class="title">
+          <h1>AI Chat OutlineMate</h1>
+          <!-- <span class="version">v1.0.0</span> -->
+        </div>
+      </div>
+    </header>
+
+    <!-- 设置区域 -->
+    <main class="settings">
+      <!-- 启用开关 -->
+      <div class="setting-item">
+        <div class="setting-info">
+          <span class="setting-label" data-i18n="enablePlugin"></span>
+          <span class="setting-desc" data-i18n="enablePluginDesc"></span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="enabled" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="setting-item">
+        <div class="setting-info">
+          <span class="setting-label" data-i18n="showPreview"></span>
+          <span class="setting-desc" data-i18n="showPreviewDesc"></span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="showPreview" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <!-- 侧边栏位置（暂时隐藏）
+      <div class="setting-item">
+        <div class="setting-info">
+          <span class="setting-label" data-i18n="sidebarPosition"></span>
+          <span class="setting-desc" data-i18n="sidebarPositionDesc"></span>
+        </div>
+        <select id="sidebarPosition" class="select">
+          <option value="right" data-i18n="positionRight"></option>
+          <option value="left" data-i18n="positionLeft"></option>
+        </select>
+      </div>
+      -->
+
+      <!-- 语言选择 -->
+      <div class="setting-item">
+        <div class="setting-info">
+          <span class="setting-label" data-i18n="language"></span>
+          <span class="setting-desc" data-i18n="languageDesc"></span>
+        </div>
+        <select id="language" class="select">
+          <option value="auto" data-i18n="languageAuto"></option>
+          <option value="en">English</option>
+          <option value="zh_CN">简体中文</option>
+        </select>
+      </div>
+    </main>
+
+    <!-- 支持的平台 -->
+    <section class="platforms">
+      <h2 data-i18n="supportedPlatforms"></h2>
+      <div class="platform-list">
+        <a href="https://chatgpt.com" target="_blank" class="platform-item" title="ChatGPT">
+          <span>ChatGPT</span>
+        </a>
+        <a href="https://gemini.google.com" target="_blank" class="platform-item" title="Gemini">
+          <span>Gemini</span>
+        </a>
+        <a href="https://www.doubao.com" target="_blank" class="platform-item" data-i18n-title="platformDoubao">
+          <span data-i18n="platformDoubao"></span>
+        </a>
+        <a href="https://kimi.moonshot.cn" target="_blank" class="platform-item" title="Kimi">
+          <span>Kimi</span>
+        </a>
+        <a href="https://tongyi.aliyun.com" target="_blank" class="platform-item" data-i18n-title="platformQwen">
+          <span data-i18n="platformQwen"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 底部 -->
+    <footer class="footer">
+      <button id="resetBtn" class="btn-reset" data-i18n="resetSettings"></button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
